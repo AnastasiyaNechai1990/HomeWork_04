@@ -7,7 +7,7 @@
 int GetSum (int n)
 {
     int sum = 0;
-    for (int i = 0; i > 0; i++)
+    for (int i = 0; n > 0; i++)
     {
         sum += n % 10; 
         n /= 10;
