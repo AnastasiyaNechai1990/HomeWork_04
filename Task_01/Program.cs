@@ -5,12 +5,12 @@
 
 
 
-int GetRez (int num2, int num1)
+int GetRez (int n2, int n1)
 {
     int rez = 1;
-    for (int i = 0; i < num2; i++)
+    for (int i = 0; i < n2; i++)
     {
-        rez *= num1;
+        rez *= n1;
     }
     return rez;
 }
