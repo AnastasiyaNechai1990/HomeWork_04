@@ -5,7 +5,6 @@ Console.Clear();
 Console.WriteLine("Введите желаемую высоту елочки: ");
 int height = int.Parse(Console.ReadLine()!);
 
-
 for (int i = height; i >= 0; i--)
     {
         
